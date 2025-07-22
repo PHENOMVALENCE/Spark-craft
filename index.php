@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spark.ai - AI-Powered Collections for Tanzania's Lenders | Recover More, Faster</title>
+    <meta name="description" content="AI-powered collections platform that recovers 25% more debt in 30 days while reducing costs by 40%. Trusted by 20+ Tanzanian MFIs. Book your demo today.">
+    <meta name="keywords" content="AI collections, debt recovery, Tanzania, microfinance, automated collections, SparkCollect, fintech">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.webp" alt="Spark.ai Logo" class="logo-img">
+                <span class="logo-text">Spark.ai</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#product" class="nav-link">Product</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#results" class="nav-link">Results</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-cta">Book Demo</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="100.webp" alt="AI Technology Background" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🤖</span>
+                    AI-Powered Collections for Tanzania
+                </div>
+                <h1 class="hero-title">
+                    Collect smarter, not harder
+                </h1>
+                <p class="hero-subtitle">
+                    AI-powered recoveries for Tanzania's lenders & billers. Replace endless phone calls with autonomous, empathetic agents that work 24/7 across SMS, WhatsApp, email, and voice — unlocking cashflow while protecting customer relationships.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Book 15-Minute Demo</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#calculator" class="btn btn-secondary">
+                        <span>Debt Recovery Calculator</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">+25%</div>
+                        <div class="stat-label">Recovery in 30 Days</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">-40%</div>
+                        <div class="stat-label">Operating Costs</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Always-On</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                    <div class="floating-element element-1">
+                        <span>SMS Recovery</span>
+                    </div>
+                    <div class="floating-element element-2">
+                        <span>AI Intelligence</span>
+                    </div>
+                    <div class="floating-element element-3">
+                        <span>Cash Flow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="trust-section">
+        <div class="container">
+            <p class="trust-text">Trusted by 20+ Tanzanian MFIs and leading financial service providers</p>
+            <div class="trust-logos">
+                <img src="pp.png" alt="Financial Partner 1" class="trust-logo">
+                <img src="px.png" alt="Financial Partner 2" class="trust-logo">
+                <img src="pf.png" alt="Financial Partner 3" class="trust-logo">
+                <img src="pw.png" alt="Financial Partner 4" class="trust-logo">
+                <img src="pb.png" alt="Financial Partner 5" class="trust-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Overview Section -->
+    <section class="solutions-overview-section">
+        <div class="container">
+            <div class="solutions-hero">
+                <div class="solutions-icon">💡</div>
+                <h2>Spark.ai automates collections, predicts late payments, and sends smart nudges ensuring recoveries</h2>
+                <p class="solutions-subtitle">With no upfront costs</p>
+            </div>
+            
+            <div class="challenge-section">
+                <div class="challenge-content">
+                    <h3>The Challenge</h3>
+                    <p>You delivered the service. Now you're waiting weeks, sometimes months, to get paid. Chasing invoices is frustrating, and cash flow gets unpredictable.</p>
+                </div>
+            </div>
+            
+            <div class="solution-hero">
+                <div class="solution-icon">💡</div>
+                <h3>Get paid faster, without the hassle.</h3>
+                <p>You delivered the service. Now get paid without the awkward follow-ups. Spark.ai automates collections, flags slow-paying clients, and speeds up payments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">The Pain We Solve</div>
+                <h2>The Collections Crisis in Tanzania</h2>
+                <p>Traditional debt recovery methods are failing lenders and trapping capital that could fund growth</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <span class="icon">👥</span>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Underserved Market</h3>
+                        <p>86% of East Africans remain under‑served by formal credit; overdue balances trap capital that could fund new loans.</p>
+                        <div class="problem-stat">
+                            <span class="stat-highlight">86%</span> Underserved Population
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <span class="icon">📞</span>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Expensive Manual Collections</h3>
+                        <p>Manual call‑center collections cost lenders up to 40% of recovered value and damage brand equity.</p>
+                        <div class="problem-stat">
+                            <span class="stat-highlight">40%</span> Cost Overhead
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <span class="icon">💳</span>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Fragmented Payment Rails</h3>
+                        <p>Fragmented payment rails (mobile money, bank transfers, agent networks) make reconciliation a nightmare.</p>
+                        <div class="problem-stat">
+                            <span class="stat-highlight">Complex</span> Reconciliation
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Features Section -->
+    <section class="smart-features-section">
+        <div class="container">
+            <div class="smart-features-grid">
+                <div class="smart-feature-card">
+                    <div class="feature-content">
+                        <div class="feature-badge">Payment</div>
+                        <h3>Smart payment reminders</h3>
+                        <p>No more manual follow-ups. Automated notifications keep customers informed and payments on time.</p>
+                        <a href="#contact" class="feature-cta">Get a demo</a>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="d3.png" alt="Smart Payment Reminders Dashboard" class="feature-img">
+                    </div>
+                </div>
+                
+                <div class="smart-feature-card">
+                    <div class="feature-content">
+                        <div class="feature-badge">Payment Prediction</div>
+                        <h3>Predict & Prevent delays</h3>
+                        <p>Our AI identifies potential risk payers early, allowing proactive action to reduce overdue accounts.</p>
+                        <a href="#contact" class="feature-cta">See a demo</a>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="d2.png" alt="Payment Prediction Analytics" class="feature-img">
+                    </div>
+                </div>
+                
+                <div class="smart-feature-card">
+                    <div class="feature-content">
+                        <div class="feature-badge">Integration</div>
+                        <h3>Seamless integration</h3>
+                        <p>Connects easily with QuickBooks, Xero, and other accounting tools for smooth payment tracking and management.</p>
+                        <a href="#contact" class="feature-cta">See a demo</a>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="d1.png" alt="Integration Dashboard" class="feature-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="solution-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">SparkCollect™</div>
+                <h2>AI Collections That Work While You Sleep — With Empathy Built In</h2>
+                <p>Your modern collections ally. Always-on. Always-respectful. Designed to boost recovery without damaging relationships — or your brand.</p>
+            </div>
+            <div class="solution-content">
+                <div class="solution-image">
+                    <img src="rst.jpg" alt="SparkCollect Platform Dashboard" class="platform-img">
+                </div>
+                <div class="solution-benefits">
+                    <div class="benefit-card">
+                        
+                        <div class="benefit-content">
+                            <h3>25% Recovery in First 30 Days</h3>
+                            <p>Cashflow unlocked for on-lending. Our AI agents work around the clock to maximize early-stage recovery rates.</p>
+                            <div class="benefit-metric">+25% Recovery Rate</div>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                       
+                        <div class="benefit-content">
+                            <h3>-40% Operating Costs</h3>
+                            <p>No call-center overhead or contingency fees. Low SaaS + success fee model that scales with your success.</p>
+                            <div class="benefit-metric">-40% Operating Costs</div>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                       
+                        <div class="benefit-content">
+                            <h3>Always-On Empathy</h3>
+                            <p>Sentiment-aware scripts adapt tone in real time, maintaining positive customer relationships while recovering debt.</p>
+                            <div class="benefit-metric">100% Empathetic</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="workflow-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Get Started in Minutes</div>
+                <h2>Collect Without the Wait</h2>
+                <p>No IT tickets. No complex onboarding. Just upload, automate, and start collecting — with full control from Day 1.</p>
+            </div>
+            <div class="workflow-container">
+                <div class="workflow-step">
+                    <div class="step-visual">
+                        <img src="uc.png" alt="Upload Data" class="step-img">
+                        <div class="step-number">1</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Upload & Connect</h3>
+                        <p>Secure APIs ingest loan and invoice data from core banking systems, ERPs, and mobile money platforms in minutes.</p>
+                        <ul class="step-features">
+                            <li>Core Banking Integration</li>
+                            <li>Mobile Money APIs</li>
+                            <li>ERP System Sync</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="workflow-step reverse">
+                    <div class="step-visual">
+                        <img src="prs.jpg" alt="AI Prediction" class="step-img">
+                        <div class="step-number">2</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Predict & Score</h3>
+                        <p>Predictive risk scoring & next-best-action recommendations optimize collection strategies for each debtor profile.</p>
+                        <ul class="step-features">
+                            <li>Risk Scoring</li>
+                            <li>Payment Propensity</li>
+                            <li>Strategy Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-visual">
+                        <img src="omni.jpg" alt="AI Engagement" class="step-img">
+                        <div class="step-number">3</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Engage with Empathy</h3>
+                        <p>Omnichannel AI outreach (SMS, WhatsApp, email, voice) with real-time sentiment analysis for humane conversations.</p>
+                        <ul class="step-features">
+                            <li>Omnichannel Messaging</li>
+                            <li>24/7 Availability</li>
+                            <li>Sentiment-Aware Scripts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="workflow-step reverse">
+                    <div class="step-visual">
+                        <img src="ar.jpg" alt="Smart Collection" class="step-img">
+                        <div class="step-number">4</div>
+                    </div>
+                    <div class="step-content">
+                        <h3>Collect & Reconcile</h3>
+                        <p>Automated reconciliation with integrated payment links and real-time ledger updates ensure seamless cash flow.</p>
+                        <ul class="step-features">
+                            <li>Instant Payment Links</li>
+                            <li>Real-time Reconciliation</li>
+                            <li>Multi-channel Payments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Capabilities Section -->
+    <section class="capabilities-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Core Capabilities</div>
+                <h2>Full-Funnel Visibility for Collections Teams</h2>
+                <p>Monitor progress, uncover opportunities, and fine-tune strategies with live performance data from every part of your collections operation.</p>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <div class="capability-image">
+                        <img src="omni.jpg" alt="Omnichannel Communication">
+                    </div>
+                    <div class="capability-content">
+                       
+                        <h3>Omnichannel AI Outreach</h3>
+                        <p>Seamless integration across SMS, WhatsApp, email, and voice AI for maximum reach and engagement across all customer touchpoints.</p>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-image">
+                        <img src="prs.jpg" alt="Predictive Analytics">
+                    </div>
+                    <div class="capability-content">
+                       
+                        <h3>Predictive Risk Scoring</h3>
+                        <p>Advanced ML models provide next-best-action recommendations based on debtor behavior patterns and payment propensity.</p>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-image">
+                        <img src="rsa.jpg" alt="Sentiment Analysis">
+                    </div>
+                    <div class="capability-content">
+                       
+                        <h3>Real-time Sentiment Analysis</h3>
+                        <p>AI adapts communication tone in real-time to maintain empathetic, respectful interactions for humane conversations.</p>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-image">
+                        <img src="ar.jpg" alt="Automated Reconciliation">
+                    </div>
+                    <div class="capability-content">
+                       
+                        <h3>Automated Reconciliation</h3>
+                        <p>Integrated M-Pesa, Airtel Money, and bank payment options with automatic reconciliation and real-time ledger updates.</p>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-image">
+                        <img src="ad.jpg" alt="Analytics Dashboard">
+                    </div>
+                    <div class="capability-content">
+                        
+                        <h3>Comprehensive Analytics</h3>
+                        <p>Real-time dashboards with recovery insights, performance metrics, and ROI tracking across strategies and workflows.</p>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-image">
+                        <img src="uc.png" alt="Compliance Engine">
+                    </div>
+                    <div class="capability-content">
+                       
+                        <h3>Built-in Compliance Engine</h3>
+                        <p>Automatic adherence to FDCPA, GDPR, and local East African regulations with full audit trails and reporting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Advantage -->
+    <section class="competitive-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Why Choose Spark.ai</div>
+                <h2>Spark.ai vs Traditional Agents</h2>
+                <p>See the clear advantages of our AI-first approach over traditional collection agencies</p>
+            </div>
+            <div class="comparison-container">
+                <div class="comparison-image">
+                    <img src="logo.webp" alt="Spark.ai vs Traditional" class="comparison-img">
+                </div>
+                <div class="comparison-table">
+                    <div class="comparison-header">
+                        <div class="comparison-feature">Feature</div>
+                        <div class="comparison-us">
+                            <img src="logo.webp" alt="Spark.ai">
+                            Spark.ai
+                        </div>
+                        <div class="comparison-them">Traditional Agents</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                            Availability
+                        </div>
+                        <div class="comparison-us">24/7 Autonomous</div>
+                        <div class="comparison-them">Business Hours Only</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <line x1="12" y1="1" x2="12" y2="23"/>
+                                <path d="m17 5-5 5-5-5"/>
+                                <path d="m17 19-5-5-5 5"/>
+                            </svg>
+                            Fee Model
+                        </div>
+                        <div class="comparison-us">Low SaaS + Success Fee</div>
+                        <div class="comparison-them">10-35% Contingency</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 1v6m0 6v6"/>
+                            </svg>
+                            Go-Live Time
+                        </div>
+                        <div class="comparison-us">Minutes</div>
+                        <div class="comparison-them">Weeks</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                            Customer Experience
+                        </div>
+                        <div class="comparison-us">Sentiment-Aware, Non-Aggressive</div>
+                        <div class="comparison-them">Often Hostile</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M3 3v18h18"/>
+                                <path d="m19 9-5 5-4-4-3 3"/>
+                            </svg>
+                            Real-Time Analytics
+                        </div>
+                        <div class="comparison-us">Yes</div>
+                        <div class="comparison-them">Limited</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results-section">
+        <div class="results-background">
+            <img src="100.webp" alt="Success Background" class="results-bg-img">
+            <div class="results-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header light">
+                <div class="section-badge light">Traction & Social Proof</div>
+                <h2>Proven Results from Tanzania</h2>
+                <p>Real results from our partnerships with 20+ Tanzanian MFIs and financial institutions</p>
+            </div>
+            <div class="results-stats">
+                <div class="result-stat">
+                   
+                    <div class="result-number" data-target="42.5">70</div>
+                    <div class="result-unit">%</div>
+                    <div class="result-label">Debt Recovery Uplift</div>
+                    <div class="result-desc">Achieved instantly with 20 Tanzanian MFIs onboarded</div>
+                </div>
+                <div class="result-stat">
+                    
+                    <div class="result-number" data-target="130">100</div>
+                    <div class="result-unit">+</div>
+                    <div class="result-label">Wait-list Institutions</div>
+                    <div class="result-desc">Fintechs, digital lenders, Banks, and SMEs waiting to onboard</div>
+                </div>
+                <div class="result-stat">
+                   
+                    <div class="result-number" data-target="30">80</div>
+                    <div class="result-unit">%</div>
+                    <div class="result-label">Portfolio Reduction</div>
+                    <div class="result-desc">Overdue portfolio slashed in just six weeks</div>
+                </div>
+            </div>
+            <div class="testimonial-section">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                            </svg>
+                        </div>
+                        <blockquote>
+                            "Spark.ai slashed our overdue portfolio by 30% in just six weeks while our clients actually complimented the reminders. The AI agents are more empathetic than our human collectors ever were."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <cite class="author-name">Head of Credit</cite>
+                                <div class="author-title">Ramos Microcredit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Pricing Section -->
+    <section id="pricing" class="enhanced-pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Choose Your Plan</div>
+                <h2>Transparent & Scalable Pricing</h2>
+                <p>Select the plan that best fits your team's needs and collection requirements</p>
+            </div>
+            <div class="enhanced-pricing-container">
+                <div class="enhanced-pricing-card autopilot">
+                    <div class="pricing-plan-header">
+                        <div class="plan-badge most-popular">Most Popular</div>
+                        <h3>Autopilot</h3>
+                        <p class="plan-subtitle">Best for teams with no in-house collections team</p>
+                        <div class="plan-description">
+                            FinanceOps covers the costs of Platform and Outreach. You only pay for results.
+                        </div>
+                    </div>
+                    
+                    <div class="enhanced-features-list">
+                        <div class="feature-category">
+                            <h4>Core Features</h4>
+                            <ul>
+                                <li><span class="check">✓</span> Invoice Management</li>
+                                <li><span class="check">✓</span> Skip Tracing <span class="info-icon">ⓘ</span></li>
+                                <li><span class="check">✓</span> Payment Processing <span class="info-icon">ⓘ</span></li>
+                                <li><span class="check">✓</span> Resolution Center</li>
+                                <li><span class="check">✓</span> Strategy Builder <span class="info-icon">ⓘ</span></li>
+                                <li><span class="check">✓</span> Payment Processing *</li>
+                                <li><span class="check">✓</span> Payment Reconciliation</li>
+                                <li><span class="check">✓</span> Reporting and Analytics</li>
+                                <li><span class="check">✓</span> Integrations <span class="info-icon">ⓘ</span></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="feature-category">
+                            <h4>AI Based Features</h4>
+                            <ul>
+                                <li><span class="check">✓</span> Best time to contact</li>
+                                <li><span class="check">✓</span> Customer Characteristics</li>
+                                <li><span class="check">✓</span> Sentiment Analysis</li>
+                                <li><span class="check">✓</span> Cash Forecasting</li>
+                                <li><span class="check">✓</span> Ease of Collectability</li>
+                                <li><span class="check">✓</span> Demographic Analysis</li>
+                                <li><span class="check">✓</span> Omnichannel Communication **</li>
+                                <li><span class="check">✓</span> Identify preferred mode of communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <a href="#contact" class="enhanced-pricing-btn primary">Get a demo</a>
+                    </div>
+                </div>
+                
+                <div class="enhanced-pricing-card copilot">
+                    <div class="pricing-plan-header">
+                        <h3>Copilot</h3>
+                        <p class="plan-subtitle">Best for teams with an in-house collections team</p>
+                    </div>
+                    
+                    <div class="enhanced-features-list">
+                        <div class="feature-category">
+                            <h4>All Autopilot Features</h4>
+                            <ul>
+                                <li><span class="check">✓</span> Team Management</li>
+                                <li><span class="check">✓</span> VoIP Calls <span class="info-icon">ⓘ</span></li>
+                                <li><span class="check">✓</span> AI Agent Assist</li>
+                                <li><span class="check">✓</span> Workflow Builder <span class="info-icon">ⓘ</span></li>
+                                <li><span class="check">✓</span> Call Recordings</li>
+                                <li><span class="check">✓</span> Call Transcripts</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="feature-category">
+                            <h4>AI Based Features</h4>
+                            <ul>
+                                <li><span class="check">✓</span> Best time to contact</li>
+                                <li><span class="check">✓</span> Customer Characteristics</li>
+                                <li><span class="check">✓</span> Sentiment Analysis</li>
+                                <li><span class="check">✓</span> Cash Forecasting</li>
+                                <li><span class="check">✓</span> Ease of Collectability</li>
+                                <li><span class="check">✓</span> Demographic Analysis</li>
+                                <li><span class="check">✓</span> Low level insights</li>
+                                <li><span class="check">✓</span> Real-time voice modulation</li>
+                                <li><span class="check">✓</span> Collection agent characteristics</li>
+                                <li><span class="check">✓</span> Collections playbook</li>
+                                <li><span class="check">✓</span> LIVE coaching for agents</li>
+                                <li><span class="check">✓</span> Voice Modulation</li>
+                                <li><span class="check">✓</span> Omni-channel Communication</li>
+                                <li><span class="check">✓</span> Identify preferred mode of communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <a href="#contact" class="enhanced-pricing-btn secondary">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta-section">
+        <div class="container">
+            <div class="final-cta-content">
+                <div class="cta-icon">💡</div>
+                <h2>Ready to Recover More, Faster?</h2>
+                <p>Turn missed opportunities into predictable cash flow with AI-powered, empathetic collections — live 24/7, with zero upfront cost.</p>
+                <a href="#contact" class="final-cta-btn">
+                    Get a Demo <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Ready to Recover More, Faster?</div>
+                <h2>Turn Missed Opportunities Into Predictable Cash Flow</h2>
+                <p>AI-powered, empathetic collections — live 24/7, with zero upfront cost. Book your 15-minute demo today.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h3>Book Your Demo</h3>
+                        <p>Get a personalized demonstration of SparkCollect™ and see how it can transform your collections</p>
+                    </div>
+                    <form id="demo-form" class="contact-form" action="contact.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name *</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="role">Your Role *</label>
+                            <select id="role" name="role" required>
+                                <option value="">Select Your Role</option>
+                                <option value="ceo">CEO/Founder</option>
+                                <option value="cfo">CFO</option>
+                                <option value="credit-head">Head of Credit</option>
+                                <option value="operations">Operations Manager</option>
+                                <option value="it-head">IT Director</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your collection challenges</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Describe your current collection process, challenges, and goals..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">
+                            <span>Book Demo Now</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info-section">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+
+                                <div class="method-content">
+                                    <div class="method-label">WhatsApp</div>
+                                    <a href="https://wa.me/255756948267" class="method-value">+255756 948 267</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                
+                                <div class="method-content">
+                                    <div class="method-label">Email</div>
+                                    <a href="mailto:hello@spark.ai" class="method-value">hello@spark.ai</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                
+                                <div class="method-content">
+                                    <div class="method-label">Office</div>
+                                    <div class="method-value">Dar es Salaam, Tanzania</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="logo.webp" alt="Spark.ai Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">Spark.ai</span>
+                    </div>
+                    <p class="footer-desc">AI-powered collections platform transforming debt recovery across Tanzania with empathetic, autonomous agents that work 24/7.</p>
+                
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#product">SparkCollect™</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#calculator">ROI Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#results">Results</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Compliance</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Spark.ai. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
