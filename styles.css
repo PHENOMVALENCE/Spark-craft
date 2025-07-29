@@ -929,106 +929,144 @@ section {
   font-size: 0.85rem;
   font-weight: 600;
 }
-
 /* Workflow Section */
 .workflow-section {
-  background: var(--neutral-50);
+    background: var(--neutral-50);
+    padding: var(--spacing-4xl) 0;
 }
 
+/* Container */
 .workflow-container {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-3xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2xl);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* Header Image */
+.workflow-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-xl);
+    margin: var(--spacing-3xl) auto;
+    display: block;
+}
+
+/* Workflow Step */
 .workflow-step {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-3xl);
-  align-items: center;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: var(--spacing-2xl);
+    align-items: start;
+    padding: var(--spacing-xl);
+    background: var(--neutral-white);
+    border-radius: var(--radius-lg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.workflow-step.reverse {
-  direction: rtl;
+.workflow-step:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
 }
 
-.workflow-step.reverse > * {
-  direction: ltr;
-}
-
+/* Step Visual */
 .step-visual {
-  position: relative;
-  text-align: center;
-}
-
-.step-img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg);
+    text-align: center;
 }
 
 .step-number {
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  width: 60px;
-  height: 60px;
-  background: var(--primary-blue);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 700;
-  box-shadow: var(--shadow-lg);
-  border: 4px solid white;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+    color: var(--neutral-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    box-shadow: var(--shadow-sm);
+    border: 3px solid var(--neutral-white);
+    margin: 0 auto;
 }
 
+/* Step Content */
 .step-content h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: var(--spacing-md);
-  color: var(--neutral-900);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    color: var(--neutral-900);
+    line-height: 1.3;
 }
 
 .step-content p {
-  font-size: 1.1rem;
-  color: var(--neutral-600);
-  line-height: 1.6;
-  margin-bottom: var(--spacing-lg);
+    font-size: 1rem;
+    color: var(--neutral-600);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
 }
 
+/* Step Features */
 .step-features {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    padding: 0;
 }
 
 .step-features li {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  color: var(--neutral-700);
-  font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    color: var(--neutral-700);
+    font-size: 0.95rem;
+    font-weight: 500;
 }
 
 .step-features li::before {
-  content: "✓";
-  width: 20px;
-  height: 20px;
-  background: var(--secondary-green);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.8rem;
-  font-weight: 700;
-  flex-shrink: 0;
+    content: "✓";
+    width: 24px;
+    height: 24px;
+    background: var(--secondary-green);
+    color: var(--neutral-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .workflow-step {
+        grid-template-columns: 60px 1fr;
+        gap: var(--spacing-lg);
+        padding: var(--spacing-lg);
+    }
+
+    .step-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .step-content p {
+        font-size: 0.9rem;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .workflow-img {
+        max-width: 100%;
+    }
 }
 
 /* Capabilities Section */
